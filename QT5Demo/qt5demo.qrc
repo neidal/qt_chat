@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/chat">
+      <file alias="chat_left">img/chat/bg_left_normal.9.png</file>
+      <file alias="chat_right">img/chat/bg_right_normal.9.png</file>
+      <file alias="chat_title">img/chat/title.png</file>
+      <file alias="chat_user_icon">img/chat/u2.png</file>
+      <file alias="chat_user_icon_mask">img/chat/mask_icon.png</file>
+      <file alias="chat_pic_error">img/chat/pic_error.png</file>
+      <file alias="chat_sound_left">img/chat/sound_left.gif</file>
+      <file alias="chat_sound_right">img/chat/sound_right.gif</file>
+    </qresource>
+</RCC>

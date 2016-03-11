@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c91dfa8c-6cf6-43e3-b651-94638e181240}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{7dda4e4a-be44-4efb-bdba-c40205b0343d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{af6b4dda-fbfa-4f01-9d29-43be959fcfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{a0dc8dfb-45c1-4940-accd-391cc535bfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{a5f813d0-7d68-4ba6-89ae-dafa5b2366ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global">
+      <UniqueIdentifier>{8dea0ef0-eefe-4572-a051-a7533c137181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\idw">
+      <UniqueIdentifier>{7ac69829-d217-4589-9ae1-ca86c036d21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ttsdk">
+      <UniqueIdentifier>{c6c60f45-cad3-45ff-8461-0dfa2dbc83b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\msgitem">
+      <UniqueIdentifier>{7936e451-78d0-439e-a9b2-622d6d1c80ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\res">
+      <UniqueIdentifier>{dea58407-6ee1-46e9-ad56-d3d5d643cd9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gui\animation.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_animation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_animation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqgifbutton.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqgifbutton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqgifbutton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqloginpage.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqloginpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqloginpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqtitle.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqtitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqtitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqwindow.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\idwadapter.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\imagedowner.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\main.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\global\stdafx.cpp">
+      <Filter>src\global</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imagedowner.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imagedowner.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_idwadapter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_idwadapter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqgraylayer.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqgraylayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqgraylayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqloadingpage.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqloadingpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqloadingpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ttsdk\TTSDKAdapter.cpp">
+      <Filter>src\ttsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ttsdk\AppCallback.cpp">
+      <Filter>src\ttsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ttsdk\ConnectCallback.cpp">
+      <Filter>src\ttsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppCallback.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppCallback.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\SDKCallback.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDKCallback.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDKCallback.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqfriendlistpage.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqfriendlistpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqfriendlistpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqflatbutton.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqflatbutton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqflatbutton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dqcodepage.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dqcodepage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dqcodepage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\chatwidget.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chatwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chatwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemMsgBase.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ninepatchimage.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\global\application.cpp">
+      <Filter>src\global</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qt5demo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemTitleMsg.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemTextMsg.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemTextMsg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemTextMsg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemImageMsg.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemImageMsg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemImageMsg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemHttpMsg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemHttpMsg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemHttpMsg.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\msgitem\ItemSoundMsg.cpp">
+      <Filter>src\gui\msgitem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemSoundMsg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemSoundMsg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\gui\animation.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqgifbutton.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqloginpage.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqtitle.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqwindow.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\imagedowner.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\idwadapter.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqgraylayer.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqloadingpage.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\ttsdk\AppCallback.h">
+      <Filter>src\ttsdk</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\SDKCallback.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqfriendlistpage.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqflatbutton.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\dqcodepage.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\chatwidget.h">
+      <Filter>src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\global\application.h">
+      <Filter>src\global</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qt5demo.qrc">
+      <Filter>src\res</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\msgitem\ItemTextMsg.h">
+      <Filter>src\gui\msgitem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\msgitem\ItemImageMsg.h">
+      <Filter>src\gui\msgitem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\msgitem\ItemHttpMsg.h">
+      <Filter>src\gui\msgitem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\gui\msgitem\ItemSoundMsg.h">
+      <Filter>src\gui\msgitem</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include\idw\DefaultRender.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\DrawHelper.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\EmptyRender.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\FlatRender.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\IdwDefine.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\IdwUIDefine.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\NonBorderRender.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\idw\SndaBase.h">
+      <Filter>src\include\idw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global\def.h">
+      <Filter>src\global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global\stdafx.h">
+      <Filter>src\global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global\types.h">
+      <Filter>src\global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\iapp.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\audio\iaudio.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\audio\iradiomanager.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\audio\iradiomanager_ios.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\connect\iconnect.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\connect\istreamconnect.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\friendlist\ifriendlist.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\group\igroup.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\group\igrouplist.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\team\iteam.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\team\iteamlist.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\user\iowner.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\user\iuser.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\TTSDKAdapter.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ttsdk\ConnectCallback.h">
+      <Filter>src\ttsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\msgitem\ItemMsgBase.h">
+      <Filter>src\gui\msgitem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\msgitem\ItemTitleMsg.h">
+      <Filter>src\gui\msgitem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\msgitem\ninepatchimage.h">
+      <Filter>src\gui\msgitem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
